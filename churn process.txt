@@ -1,0 +1,22 @@
+steps for churning
+
+format json
+
+remove fields
+
+convert data to churn
+
+normalize dates to give equal start time
+
+organize our data by players
+
+define and group months to OP,CP
+	if players dont return, during cp they are churned players
+
+plot samples
+
+Feature importance and correlation
+
+remove unecessary features
+
+build model for short term(~<7 days) and long term(~<30days)

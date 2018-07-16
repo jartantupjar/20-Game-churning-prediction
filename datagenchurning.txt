@@ -1,0 +1,20 @@
+OP =days(period)
+eg. if player hasnt played for OP days =churn
+
+group input by period?
+	challenges
+
+time difference between games per record, if time exceeds OP days then that record is churn.
+
+churner=not played/visit  Time record-1
+active vs inactive
+
+	op=getrecords(where time within <5days)(startime=first game,end time=5 days)
+	cp=getrecords(where time within 10 days after op)(startime=6th day-10days)
+every record has churn output?
+
+time difference between game
+
+group by day
+
+

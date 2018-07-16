@@ -1,0 +1,26 @@
+time to event
+for classification:
+every record store
+
+	'time since last purchase'
+	'avg time between purchases'
+	'days since first played'
+
+
+for time series:
+	convert each user to one row/feature vector
+	sum the scores for a time frame of ~10min 
+		for specified time(op days)
+	use cp days to determine if user is churned or not
+	~ends up having the same problem
+
+
+
+indefinite cp days:
+	instead of specifying a cp days, determine if he will ever continue in the future, if true , it could be binary or count.
+
+future study:
+	clustering of users to determine types of users., then build a model for each type of user.
+	-this would work if we want to make our models less generalu
+
+	
